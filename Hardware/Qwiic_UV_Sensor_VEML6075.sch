@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16241,6 +16241,151 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-DiscreteSemi">
+<description>&lt;h3&gt;SparkFun Discrete Semiconductors&lt;/h3&gt;
+This library contains diodes, optoisolators, TRIACs, MOSFETs, transistors, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SOD-323">
+<description>SOD-323 (Small Outline Diode)</description>
+<wire x1="-1.77" y1="0.625" x2="-1.77" y2="-0.625" width="0.2032" layer="21"/>
+<smd name="C" x="-1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
+<smd name="A" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.9" y1="0.625" x2="0.9" y2="0.625" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-0.625" x2="0.9" y2="-0.625" width="0.2032" layer="21"/>
+</package>
+<package name="PANASONIC_SMINI2-F5-B">
+<description>From http://www.semicon.panasonic.co.jp/ds4/DZ2J150_E.pdf</description>
+<wire x1="-1.897" y1="0.625" x2="-1.897" y2="-0.625" width="0.2032" layer="21"/>
+<smd name="C" x="-1.2" y="0" dx="0.9" dy="1.1" layer="1"/>
+<smd name="A" x="1.2" y="0" dx="0.9" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.85" y1="0.625" x2="0.85" y2="0.625" width="0.127" layer="21"/>
+<wire x1="-0.85" y1="-0.625" x2="0.85" y2="-0.625" width="0.127" layer="21"/>
+</package>
+<package name="SOT23-3">
+<description>SOT23-3</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
+<text x="-1.651" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.651" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DIODE-ZENER">
+<description>&lt;h3&gt;Zener Diode&lt;/h3&gt;
+Allows current flow in one direction, but allows reverse flow when above breakdown voltage.</description>
+<wire x1="1.27" y1="0.889" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-0.889" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.889" x2="1.778" y2="1.397" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-0.889" x2="0.762" y2="-1.397" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.032" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.032" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-1.27" y="1.27"/>
+<vertex x="1.27" y="0"/>
+<vertex x="-1.27" y="-1.27"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DIODE-ZENER" prefix="D">
+<description>&lt;h3&gt;Zener Diode&lt;/h3&gt;
+&lt;p&gt;A Zener diode allows current to flow from its anode to its cathode like a normal semiconductor diode, but it also permits current to flow in the reverse direction when its "Zener voltage" is reached. - WIkipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE-ZENER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-MM3Z3V3T1G" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-11284"/>
+<attribute name="VALUE" value="3.3V"/>
+</technology>
+</technologies>
+</device>
+<device name="-MMSZ5232BS" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-12442"/>
+<attribute name="VALUE" value="5.6V"/>
+</technology>
+</technologies>
+</device>
+<device name="-DZ2J150M0L" package="PANASONIC_SMINI2-F5-B">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-12989"/>
+<attribute name="VALUE" value="15V"/>
+</technology>
+</technologies>
+</device>
+<device name="-BZT52C3V6S" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-08199" constant="no"/>
+<attribute name="VALUE" value="3.6V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-MMBZ5233BLT1G" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-14123"/>
+<attribute name="VALUE" value="6V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16286,6 +16431,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J6" library="SparkFun-Connectors" deviceset="GATOR" device="GATOR_MINI"/>
 <part name="J7" library="SparkFun-Connectors" deviceset="GATOR" device="GATOR_MINI"/>
 <part name="J8" library="SparkFun-Connectors" deviceset="GATOR" device="GATOR_MINI"/>
+<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-BZT52C3V6S" value="3.6V"/>
+<part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-BZT52C3V6S" value="3.6V"/>
+<part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-BZT52C3V6S" value="3.6V"/>
 </parts>
 <sheets>
 <sheet>
@@ -16359,8 +16507,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY8" gate="G$1" x="121.92" y="60.96" smashed="yes">
 <attribute name="VALUE" x="121.92" y="63.754" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND8" gate="1" x="121.92" y="45.72" smashed="yes">
-<attribute name="VALUE" x="119.38" y="43.18" size="1.778" layer="96"/>
+<instance part="GND8" gate="1" x="121.92" y="33.02" smashed="yes">
+<attribute name="VALUE" x="119.38" y="30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="U$2" gate="G$1" x="58.42" y="2.54" smashed="yes"/>
 <instance part="LOGO1" gate="G$1" x="45.72" y="12.7" smashed="yes"/>
@@ -16383,17 +16531,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J4" gate="G$1" x="101.6" y="50.8" smashed="yes">
 <attribute name="NAME" x="109.22" y="50.8" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J5" gate="G$1" x="127" y="50.8" smashed="yes">
-<attribute name="NAME" x="134.62" y="50.8" size="1.778" layer="95" font="vector"/>
+<instance part="J5" gate="G$1" x="137.16" y="43.18" smashed="yes">
+<attribute name="NAME" x="144.78" y="43.18" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J6" gate="G$1" x="127" y="53.34" smashed="yes">
-<attribute name="NAME" x="134.62" y="53.34" size="1.778" layer="95" font="vector"/>
+<instance part="J6" gate="G$1" x="137.16" y="53.34" smashed="yes">
+<attribute name="NAME" x="144.78" y="53.34" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J7" gate="G$1" x="127" y="55.88" smashed="yes">
-<attribute name="NAME" x="134.62" y="55.88" size="1.778" layer="95" font="vector"/>
+<instance part="J7" gate="G$1" x="137.16" y="55.88" smashed="yes">
+<attribute name="NAME" x="144.78" y="55.88" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J8" gate="G$1" x="127" y="58.42" smashed="yes">
-<attribute name="NAME" x="134.62" y="58.42" size="1.778" layer="95" font="vector"/>
+<instance part="J8" gate="G$1" x="137.16" y="58.42" smashed="yes">
+<attribute name="NAME" x="144.78" y="58.42" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="D2" gate="G$1" x="121.92" y="48.26" smashed="yes" rot="R90">
+<attribute name="NAME" x="119.888" y="45.72" size="1.778" layer="95" font="vector" rot="R90"/>
+</instance>
+<instance part="D3" gate="G$1" x="127" y="48.26" smashed="yes" rot="R90">
+<attribute name="NAME" x="124.968" y="45.72" size="1.778" layer="95" font="vector" rot="R90"/>
+</instance>
+<instance part="D4" gate="G$1" x="132.08" y="48.26" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.048" y="45.72" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="134.112" y="45.72" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -16436,10 +16594,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J3" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="53.34" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 <pinref part="J6" gate="G$1" pin="P$1"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="121.92" y1="50.8" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
+<junction x="121.92" y="53.34"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -16466,10 +16627,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J4" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="50.8" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="43.18" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="127" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="43.18" x2="121.92" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="J5" gate="G$1" pin="P$1"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="121.92" y1="45.72" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
+<junction x="121.92" y="43.18"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="127" y1="45.72" x2="127" y2="43.18" width="0.1524" layer="91"/>
+<junction x="127" y="43.18"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="132.08" y1="45.72" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
+<junction x="132.08" y="43.18"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -16495,9 +16667,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="55.88" x2="127" y2="55.88" width="0.1524" layer="91"/>
 <label x="119.38" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="P$1"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="127" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="127" y1="50.8" x2="127" y2="55.88" width="0.1524" layer="91"/>
+<junction x="127" y="55.88"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -16516,9 +16692,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J1" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="58.42" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
 <label x="119.38" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J8" gate="G$1" pin="P$1"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="132.08" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="50.8" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
+<junction x="132.08" y="58.42"/>
 </segment>
 </net>
 </nets>
