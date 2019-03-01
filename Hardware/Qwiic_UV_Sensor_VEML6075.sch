@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10326,6 +10326,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 4.0 License</text>
 <text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
+<text x="23.114" y="11.176" size="2.7432" layer="94" font="vector">&gt;DESIGNER</text>
+<text x="88.9" y="6.604" size="2.7432" layer="94" font="vector">&gt;REV</text>
 </symbol>
 <symbol name="OSHW-LOGO">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo&lt;/h3&gt;
@@ -14967,7 +14969,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <devices>
 <device name="" package="CREATIVE_COMMONS">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESIGNER" value="" constant="no"/>
+<attribute name="REV" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="NO_PACKAGE" package="DUMMY">
@@ -15897,7 +15902,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
 <text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.2032" layer="21"/>
 <wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
 <wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
 <wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
@@ -16071,14 +16076,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.6" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
 <text x="1.6" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
 <circle x="-1.2" y="0.95" radius="0.1905" width="0" layer="21"/>
-<wire x1="1.1" y1="0.725" x2="-1.1" y2="0.725" width="0.127" layer="21"/>
-<wire x1="-1.1" y1="-0.725" x2="1.1" y2="-0.725" width="0.127" layer="21"/>
-<wire x1="1.1" y1="0.725" x2="1.1" y2="0.625" width="0.127" layer="21"/>
-<wire x1="1.1" y1="0.025" x2="1.1" y2="-0.025" width="0.127" layer="21"/>
-<wire x1="-1.1" y1="-0.025" x2="-1.1" y2="0.025" width="0.127" layer="21"/>
-<wire x1="-1.1" y1="-0.725" x2="-1.1" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="1.1" y1="-0.625" x2="1.1" y2="-0.725" width="0.127" layer="21"/>
-<wire x1="-1.1" y1="0.625" x2="-1.1" y2="0.725" width="0.127" layer="21"/>
+<wire x1="1.1" y1="0.725" x2="-1.1" y2="0.725" width="0.2032" layer="21"/>
+<wire x1="-1.1" y1="-0.725" x2="1.1" y2="-0.725" width="0.2032" layer="21"/>
+<wire x1="1.1" y1="0.725" x2="1.1" y2="0.625" width="0.2032" layer="21"/>
+<wire x1="1.1" y1="0.025" x2="1.1" y2="-0.025" width="0.2032" layer="21"/>
+<wire x1="-1.1" y1="-0.025" x2="-1.1" y2="0.025" width="0.2032" layer="21"/>
+<wire x1="-1.1" y1="-0.725" x2="-1.1" y2="-0.625" width="0.2032" layer="21"/>
+<wire x1="1.1" y1="-0.625" x2="1.1" y2="-0.725" width="0.2032" layer="21"/>
+<wire x1="-1.1" y1="0.625" x2="-1.1" y2="0.725" width="0.2032" layer="21"/>
 <wire x1="-1.397" y1="0.635" x2="-0.508" y2="0.635" width="0.002540625" layer="41"/>
 <wire x1="1.397" y1="-0.635" x2="0.508" y2="-0.635" width="0.002540625" layer="41"/>
 <wire x1="1.397" y1="0.635" x2="0.508" y2="0.635" width="0.002540625" layer="41"/>
@@ -16292,6 +16297,62 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.651" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="1.651" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
 </package>
+<package name="TO220V">
+<description>&lt;b&gt;TO 220 Vertical&lt;/b&gt; Package works with various parts including N-Channel MOSFET SparkFun SKU: COM-10213</description>
+<wire x1="-5.08" y1="2.032" x2="-5.08" y2="-0.381" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="2.032" x2="5.08" y2="-0.381" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="2.032" x2="-5.08" y2="2.032" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="2.032" x2="-5.08" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="3.048" x2="5.08" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="3.048" x2="5.08" y2="2.032" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="-0.381" x2="-4.191" y2="-1.27" width="0.2032" layer="21" curve="92.798868"/>
+<wire x1="4.191" y1="-1.27" x2="5.08" y2="-0.381" width="0.2032" layer="21" curve="92.798868"/>
+<wire x1="-4.191" y1="-1.27" x2="-3.81" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.191" y1="-1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
+<rectangle x1="-5.08" y1="2.032" x2="5.08" y2="3.048" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.334" y="0.254" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="5.334" y="0.254" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
+</package>
+<package name="SO08">
+<description>SOIC, 0.15 inch width</description>
+<wire x1="2.3368" y1="1.9463" x2="-2.3368" y2="1.9463" width="0.2032" layer="21"/>
+<wire x1="2.4368" y1="-1.9463" x2="2.7178" y2="-1.5653" width="0.2032" layer="21" curve="90"/>
+<wire x1="-2.7178" y1="1.4653" x2="-2.3368" y2="1.9463" width="0.2032" layer="21" curve="-90.023829"/>
+<wire x1="2.3368" y1="1.9463" x2="2.7178" y2="1.5653" width="0.2032" layer="21" curve="-90.030084"/>
+<wire x1="-2.7178" y1="-1.6653" x2="-2.3368" y2="-1.9463" width="0.2032" layer="21" curve="90.060185"/>
+<wire x1="-2.3368" y1="-1.9463" x2="2.4368" y2="-1.9463" width="0.2032" layer="21"/>
+<wire x1="2.7178" y1="-1.5653" x2="2.7178" y2="1.5653" width="0.2032" layer="21"/>
+<wire x1="-2.667" y1="0.6096" x2="-2.667" y2="-0.6604" width="0.2032" layer="21" curve="-180"/>
+<wire x1="-2.7178" y1="1.4526" x2="-2.7178" y2="0.6096" width="0.2032" layer="21"/>
+<wire x1="-2.7178" y1="-1.6653" x2="-2.7178" y2="-0.6604" width="0.2032" layer="21"/>
+<rectangle x1="-2.159" y1="-3.302" x2="-1.651" y2="-2.2733" layer="51"/>
+<rectangle x1="-0.889" y1="-3.302" x2="-0.381" y2="-2.2733" layer="51"/>
+<rectangle x1="0.381" y1="-3.302" x2="0.889" y2="-2.2733" layer="51"/>
+<rectangle x1="1.651" y1="-3.302" x2="2.159" y2="-2.2733" layer="51"/>
+<rectangle x1="-0.889" y1="2.286" x2="-0.381" y2="3.302" layer="51"/>
+<rectangle x1="0.381" y1="2.286" x2="0.889" y2="3.302" layer="51"/>
+<rectangle x1="1.651" y1="2.286" x2="2.159" y2="3.302" layer="51"/>
+<smd name="1" x="-1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="2" x="-0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="5" x="1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="6" x="0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<text x="-3.175" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-2.159" y1="2.286" x2="-1.651" y2="3.302" layer="51"/>
+<polygon width="0.002540625" layer="21">
+<vertex x="-2.69875" y="-2.38125" curve="90"/>
+<vertex x="-3.01625" y="-2.06375" curve="90"/>
+<vertex x="-3.33375" y="-2.38125" curve="90"/>
+<vertex x="-3.01625" y="-2.69875" curve="90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE-ZENER">
@@ -16312,6 +16373,44 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <vertex x="1.27" y="0"/>
 <vertex x="-1.27" y="-1.27"/>
 </polygon>
+</symbol>
+<symbol name="LABELED-PMOS">
+<description>&lt;h3&gt;P-channel MOSFET&lt;/h3&gt;
+Switches electrical signals</description>
+<text x="5.08" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short"/>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" rot="R90"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" rot="R270"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="0.6858" x2="-1.9812" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="0" x2="-1.9812" y2="-0.8382" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="-1.2954" x2="-1.9812" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="-1.905" x2="-1.9812" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="2.54" x2="-1.9812" y2="1.8034" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="1.8034" x2="-1.9812" y2="1.0922" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="1.8034" x2="2.54" y2="1.8034" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.8034" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.302" y="0.508"/>
+<vertex x="2.54" y="-0.762"/>
+<vertex x="1.778" y="0.508"/>
+</polygon>
+<wire x1="1.778" y1="-0.762" x2="1.6002" y2="-0.9398" width="0.1524" layer="94"/>
+<wire x1="3.4798" y1="-0.5842" x2="3.302" y2="-0.762" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.1778" y="0"/>
+<vertex x="-0.9398" y="-0.254"/>
+<vertex x="-0.9398" y="0.254"/>
+</polygon>
+<wire x1="0" y1="0" x2="-1.9812" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="-0.7874" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.8034" x2="2.54" y2="0.5842" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -16384,6 +16483,84 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 </device>
 </devices>
 </deviceset>
+<deviceset name="MOSFET_PCH" prefix="Q">
+<description>&lt;h3&gt;P-channel MOSFETs&lt;/h3&gt;
+&lt;p&gt;Voltage controlled devices that allow control of high current outputs.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13907”&gt;SparkFun ESP32 Thing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13231”&gt;SparkFun ESP8266 Thing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LABELED-PMOS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-IRLML2244" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-11153"/>
+<attribute name="VALUE" value="4.3A/20V/54mΩ"/>
+</technology>
+</technologies>
+</device>
+<device name="-SI2309DS" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-08285"/>
+<attribute name="VALUE" value="1.1A/60V/600mΩ"/>
+</technology>
+</technologies>
+</device>
+<device name="-DMG2307L" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-11308"/>
+<attribute name="VALUE" value="2.5A/30V/105mΩ"/>
+</technology>
+</technologies>
+</device>
+<device name="-NDP6020P" package="TO220V">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-13060"/>
+<attribute name="VALUE" value="24A/20V/50mΩ"/>
+</technology>
+</technologies>
+</device>
+<device name="-NDS8434" package="SO08">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-08355"/>
+<attribute name="VALUE" value="6.5A/20V/35mΩ"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -16410,7 +16587,6 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <part name="R1" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
@@ -16434,6 +16610,8 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-BZT52C3V6S" value="3.6V"/>
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-BZT52C3V6S" value="3.6V"/>
 <part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="-BZT52C3V6S" value="3.6V"/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET_PCH" device="-DMG2307L" value="2.5A/30V/105mΩ"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -16498,17 +16676,14 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <instance part="SUPPLY2" gate="G$1" x="152.4" y="147.32" smashed="yes">
 <attribute name="VALUE" x="152.4" y="150.114" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="96.52" y="60.96" smashed="yes">
-<attribute name="VALUE" x="96.52" y="63.754" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="GND6" gate="1" x="96.52" y="45.72" smashed="yes">
 <attribute name="VALUE" x="93.98" y="43.18" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="121.92" y="60.96" smashed="yes">
-<attribute name="VALUE" x="121.92" y="63.754" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY8" gate="G$1" x="71.12" y="66.04" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="71.12" y="68.834" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="GND8" gate="1" x="121.92" y="33.02" smashed="yes">
-<attribute name="VALUE" x="119.38" y="30.48" size="1.778" layer="96"/>
+<instance part="GND8" gate="1" x="71.12" y="27.94" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="73.66" y="25.4" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="U$2" gate="G$1" x="58.42" y="2.54" smashed="yes"/>
 <instance part="LOGO1" gate="G$1" x="45.72" y="12.7" smashed="yes"/>
@@ -16525,33 +16700,38 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <instance part="J2" gate="G$1" x="101.6" y="55.88" smashed="yes">
 <attribute name="NAME" x="109.22" y="55.88" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J3" gate="G$1" x="101.6" y="53.34" smashed="yes">
-<attribute name="NAME" x="109.22" y="53.34" size="1.778" layer="95" font="vector"/>
+<instance part="J3" gate="G$1" x="45.72" y="55.88" smashed="yes" rot="MR0">
+<attribute name="NAME" x="38.1" y="55.88" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="J4" gate="G$1" x="101.6" y="50.8" smashed="yes">
 <attribute name="NAME" x="109.22" y="50.8" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J5" gate="G$1" x="137.16" y="43.18" smashed="yes">
-<attribute name="NAME" x="144.78" y="43.18" size="1.778" layer="95" font="vector"/>
+<instance part="J5" gate="G$1" x="45.72" y="33.02" smashed="yes" rot="MR0">
+<attribute name="NAME" x="38.1" y="33.02" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="J6" gate="G$1" x="137.16" y="53.34" smashed="yes">
-<attribute name="NAME" x="144.78" y="53.34" size="1.778" layer="95" font="vector"/>
+<instance part="J6" gate="G$1" x="45.72" y="58.42" smashed="yes" rot="MR0">
+<attribute name="NAME" x="38.1" y="58.42" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="J7" gate="G$1" x="137.16" y="55.88" smashed="yes">
-<attribute name="NAME" x="144.78" y="55.88" size="1.778" layer="95" font="vector"/>
+<instance part="J7" gate="G$1" x="45.72" y="60.96" smashed="yes" rot="MR0">
+<attribute name="NAME" x="38.1" y="60.96" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="J8" gate="G$1" x="137.16" y="58.42" smashed="yes">
-<attribute name="NAME" x="144.78" y="58.42" size="1.778" layer="95" font="vector"/>
+<instance part="J8" gate="G$1" x="45.72" y="63.5" smashed="yes" rot="MR0">
+<attribute name="NAME" x="38.1" y="63.5" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="D2" gate="G$1" x="121.92" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="119.888" y="45.72" size="1.778" layer="95" font="vector" rot="R90"/>
+<instance part="D2" gate="G$1" x="71.12" y="53.34" smashed="yes" rot="MR90">
+<attribute name="NAME" x="73.152" y="50.8" size="1.778" layer="95" font="vector" rot="MR90"/>
 </instance>
-<instance part="D3" gate="G$1" x="127" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="124.968" y="45.72" size="1.778" layer="95" font="vector" rot="R90"/>
+<instance part="D3" gate="G$1" x="55.88" y="38.1" smashed="yes" rot="MR90">
+<attribute name="NAME" x="57.912" y="35.56" size="1.778" layer="95" font="vector" rot="MR90"/>
 </instance>
-<instance part="D4" gate="G$1" x="132.08" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="130.048" y="45.72" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="134.112" y="45.72" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D4" gate="G$1" x="50.8" y="38.1" smashed="yes" rot="MR90">
+<attribute name="NAME" x="52.832" y="35.56" size="1.778" layer="95" font="vector" rot="MR90"/>
+<attribute name="VALUE" x="48.768" y="35.56" size="1.778" layer="96" font="vector" rot="MR90" align="top-left"/>
+</instance>
+<instance part="Q1" gate="G$1" x="63.5" y="55.88" rot="R90"/>
+<instance part="R4" gate="G$1" x="71.12" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.596" y="40.64" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="72.644" y="40.64" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -16588,19 +16768,13 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <junction x="152.4" y="144.78"/>
 </segment>
 <segment>
-<wire x1="99.06" y1="53.34" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="53.34" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
-<pinref part="J3" gate="G$1" pin="P$1"/>
-</segment>
-<segment>
-<wire x1="134.62" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="53.34" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="58.42" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
-<pinref part="J6" gate="G$1" pin="P$1"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="121.92" y1="50.8" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
-<junction x="121.92" y="53.34"/>
+<wire x1="71.12" y1="55.88" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<wire x1="68.58" y1="58.42" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
+<junction x="71.12" y="58.42"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -16627,21 +16801,21 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <pinref part="J4" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="43.18" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="127" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="43.18" x2="121.92" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="33.02" x2="71.12" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="33.02" x2="71.12" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="J5" gate="G$1" pin="P$1"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="121.92" y1="45.72" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
-<junction x="121.92" y="43.18"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="127" y1="45.72" x2="127" y2="43.18" width="0.1524" layer="91"/>
-<junction x="127" y="43.18"/>
+<wire x1="55.88" y1="35.56" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+<junction x="55.88" y="33.02"/>
 <pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="132.08" y1="45.72" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
-<junction x="132.08" y="43.18"/>
+<wire x1="50.8" y1="35.56" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
+<junction x="50.8" y="33.02"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="35.56" x2="71.12" y2="33.02" width="0.1524" layer="91"/>
+<junction x="71.12" y="33.02"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -16667,13 +16841,13 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <pinref part="J2" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="55.88" x2="127" y2="55.88" width="0.1524" layer="91"/>
-<label x="119.38" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="48.26" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
+<label x="63.5" y="60.96" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J7" gate="G$1" pin="P$1"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="127" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="127" y1="50.8" x2="127" y2="55.88" width="0.1524" layer="91"/>
-<junction x="127" y="55.88"/>
+<wire x1="55.88" y1="60.96" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="40.64" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
+<junction x="55.88" y="60.96"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -16692,13 +16866,37 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <pinref part="J1" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="58.42" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
-<label x="119.38" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="48.26" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
+<label x="63.5" y="63.5" size="1.27" layer="95" font="vector" rot="MR180" xref="yes"/>
 <pinref part="J8" gate="G$1" pin="P$1"/>
 <pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="132.08" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="50.8" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
-<junction x="132.08" y="58.42"/>
+<wire x1="50.8" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="40.64" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
+<junction x="50.8" y="63.5"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="P$1"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<wire x1="48.26" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="P$1"/>
+<wire x1="53.34" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="55.88" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="55.88" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
+<junction x="53.34" y="58.42"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="71.12" y1="50.8" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="66.04" y1="50.8" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="48.26" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="48.26" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
+<junction x="71.12" y="48.26"/>
 </segment>
 </net>
 </nets>

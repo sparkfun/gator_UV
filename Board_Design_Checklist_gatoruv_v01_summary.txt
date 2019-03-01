@@ -1,0 +1,3 @@
+1) Do all VCC connections use the VCC symbol (oriented upward)? [YES]
+comment: 3.3
+
