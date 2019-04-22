@@ -2865,22 +2865,22 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J6" library="SparkFun-Connectors" package="GATOR_MINI" value="GATORGATOR_MINI" x="13.97" y="21.59" smashed="yes" rot="R180"/>
 <element name="J7" library="SparkFun-Connectors" package="GATOR_MINI" value="GATORGATOR_MINI" x="24.13" y="21.59" smashed="yes" rot="R180"/>
 <element name="J8" library="SparkFun-Connectors" package="GATOR_MINI" value="GATORGATOR_MINI" x="34.29" y="21.59" smashed="yes" rot="R180"/>
-<element name="U$3" library="buzzard_labels" package="3V33" value="" x="11.684" y="7.874" smashed="yes"/>
+<element name="U$3" library="buzzard_labels" package="3V33" value="" x="11.557" y="7.874" smashed="yes"/>
 <element name="U$4" library="buzzard_labels" package="GND0" value="" x="1.397" y="7.874" smashed="yes"/>
 <element name="U$5" library="buzzard_labels" package="SCL2" value="" x="32.131" y="7.874" smashed="yes"/>
 <element name="U$7" library="buzzard_labels" package="SDA1" value="" x="21.844" y="7.874" smashed="yes"/>
-<element name="U$8" library="buzzard_labels" package="3V33" value="" x="11.684" y="17.526" smashed="yes" rot="MR180"/>
+<element name="U$8" library="buzzard_labels" package="3V33" value="" x="11.557" y="17.526" smashed="yes" rot="MR180"/>
 <element name="U$9" library="buzzard_labels" package="GND0" value="" x="1.397" y="17.526" smashed="yes" rot="MR180"/>
-<element name="U$11" library="buzzard_labels" package="SCL2" value="" x="32.131" y="17.526" smashed="yes" rot="MR180"/>
-<element name="U$12" library="buzzard_labels" package="SDA1" value="" x="21.844" y="17.526" smashed="yes" rot="MR180"/>
+<element name="U$11" library="buzzard_labels" package="SCL2" value="" x="32.004" y="17.526" smashed="yes" rot="MR180"/>
+<element name="U$12" library="buzzard_labels" package="SDA1" value="" x="21.717" y="17.526" smashed="yes" rot="MR180"/>
 <element name="U$13" library="buzzard_labels" package="GND0" value="" x="6.223" y="17.526" smashed="yes" rot="R180"/>
 <element name="U$14" library="buzzard_labels" package="3V33" value="" x="16.256" y="17.526" smashed="yes" rot="R180"/>
 <element name="U$15" library="buzzard_labels" package="SDA1" value="" x="26.416" y="17.526" smashed="yes" rot="R180"/>
 <element name="U$17" library="buzzard_labels" package="SCL2" value="" x="36.449" y="17.526" smashed="yes" rot="R180"/>
 <element name="U$18" library="buzzard_labels" package="GND0" value="" x="6.223" y="7.874" smashed="yes" rot="MR0"/>
 <element name="U$19" library="buzzard_labels" package="3V33" value="" x="16.256" y="7.874" smashed="yes" rot="MR0"/>
-<element name="U$20" library="buzzard_labels" package="SDA1" value="" x="26.416" y="7.874" smashed="yes" rot="MR0"/>
-<element name="U$21" library="buzzard_labels" package="SCL2" value="" x="36.449" y="7.874" smashed="yes" rot="MR0"/>
+<element name="U$20" library="buzzard_labels" package="SDA1" value="" x="26.543" y="7.874" smashed="yes" rot="MR0"/>
+<element name="U$21" library="buzzard_labels" package="SCL2" value="" x="36.576" y="7.874" smashed="yes" rot="MR0"/>
 <element name="D2" library="SparkFun-DiscreteSemi" package="SOD-323" value="3.6V" x="8.89" y="7.112" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.89" y="6.35" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-08199" x="8.89" y="7.112" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2906,7 +2906,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="RES-00824" x="8.89" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$10" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="1.27" y="-10.16"/>
-<element name="U1" library="SparkFun-Sensors" package="VEML6070" value="VEML6070&quot;" x="19.05" y="12.7" rot="R180"/>
+<element name="U1" library="SparkFun-Sensors" package="VEML6070" value="VEML6070" x="19.05" y="12.7" rot="R180">
+<attribute name="PROD_ID" value="SEN-14367" x="19.05" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="VEML6070" x="19.05" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="R5" library="SparkFun-Resistors" package="0603" value="10k" x="24.765" y="13.97" rot="R90">
 <attribute name="PROD_ID" value="RES-00824" x="24.765" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
